@@ -2,7 +2,7 @@
 
 import psycopg2
 
-DBNAME = 'news' # Database name
+DBNAME = 'news'  # Database name
 
 # Queries
 top_articles_query = "select * from three_most_popular_articles;"
@@ -58,3 +58,4 @@ if __name__ == '__main__':
     print_top_articles()
     print_top_authors()
     print_top_error_days()
+    
